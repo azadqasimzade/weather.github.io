@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+  background: url(1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+  -webkit-transition: .4s linear;
+  transition: .4s linear;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container-fluid {
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container-fluid .row .col {
+  position: relative;
+  top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-fluid .row .col .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.container-fluid .row .col .header h1 {
+  font-size: 6rem;
+  text-shadow: 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.container-fluid .row .col .header input {
+  font-size: 2rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-top: 2rem;
+  border-bottom: .2rem solid #fff;
+  color: #fff;
+  text-align: center;
+}
+
+.container-fluid .row .col .header input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.container-fluid .row .col .header input:-ms-input-placeholder {
+  color: #fff;
+}
+
+.container-fluid .row .col .header input::-ms-input-placeholder {
+  color: #fff;
+}
+
+.container-fluid .row .col .header input::placeholder {
+  color: #fff;
+}
+
+.container-fluid .row .col .header #alert {
+  font-size: 1.8rem;
+  margin-top: .8rem;
+}
+
+.container-fluid .row .col .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-fluid .row .col .content #cityName {
+  font-size: 4.5rem;
+  text-shadow: 1px 3px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
+}
+
+.container-fluid .row .col .content #temp,
+.container-fluid .row .col .content #desc,
+.container-fluid .row .col .content #minmax {
+  font-size: 3rem;
+}
+
+.container-fluid .row .col .content #wIcon {
+  width: 10rem;
+  height: 10rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: none;
+}
+
+.container-fluid .row .col #button {
+  margin-top: 2rem;
+}
+
+.container-fluid .row .col #button button {
+  color: #fff;
+  font-size: 2rem;
+  background-color: #ff9f1a;
+  padding: .5rem 5rem;
+}
+
+.container-fluid .row .col #clock {
+  font-size: 3rem;
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
